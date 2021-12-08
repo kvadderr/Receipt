@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title>Создание чека</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="canvas rad-shadow">
+            <form class="formReceip">
+    
+              
+                <div class="group">      
+                  <input type="text" required id="inputName">
+                  <span class="highlight"></span>
+                  <span class="bar"></span>
+                  <label>Название платежа</label>
+                </div>
+
+                <div class="group">      
+                    <input type="text" required id="inputPrice">
+                    <span class="highlight"></span>
+                    <span class="bar"></span>
+                    <label>Сумма</label>
+                </div>
+
+                <div class="group">      
+                    <input type="text" required id="inputLS">
+                    <span class="highlight"></span>
+                    <span class="bar"></span>
+                    <label>Л/С</label>
+                </div>
+
+                <div class="group">      
+                    <input type="text" required id="inputMail">
+                    <span class="highlight"></span>
+                    <span class="bar"></span>
+                    <label>Почта</label>
+                </div>
+                 
+                
+                   <a onclick="btnPressed()" id="btn">Оплатить</a>  
+                
+              </form>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
